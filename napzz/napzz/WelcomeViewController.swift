@@ -124,14 +124,13 @@ struct WelcomeViewController: View {
                             .font(.headline)
                             .fontWeight(.semibold)
                             .foregroundColor(.white)
-                            .frame(maxWidth: .infinity)
                             .padding(.vertical, 15)
+                            .padding(.horizontal, 60)
                             .background(
                                 RoundedRectangle(cornerRadius: 15)
-                                    .fill(Color(red: 0.4, green: 0.2, blue: 0.7))
+                                    .fill(Color(red: 0.3, green: 0.15, blue: 0.6))
                             )
                     }
-                    .padding(.horizontal, 40)
                     .padding(.bottom, 20)
                     
                     // Made by section
